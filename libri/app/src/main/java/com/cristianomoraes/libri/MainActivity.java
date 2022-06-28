@@ -14,7 +14,6 @@ import com.cristianomoraes.libri.database.SQLHelper;
 public class MainActivity extends AppCompatActivity {
 
     Button btnCadastrar;
-
     Button btnLogar;
     EditText txtLogin;
     EditText txtSenha;
@@ -40,17 +39,17 @@ public class MainActivity extends AppCompatActivity {
         this.btnLogar.setOnClickListener(view->{
 
             String sLogin = txtLogin.getText().toString();
-
             String sSenha = txtSenha.getText().toString();
 
             int cod_usuario = SQLHelper.getInstance(MainActivity.this).login(sLogin, sSenha);
 
             Log.d("COUNT-", "COD " + String.valueOf(cod_usuario));
-            if(cod_usuario > 0){
 
-                Intent intent  = new Intent(MainActivity.this, activity_feed.class);
-                intent.putExtra("cod_usuario", cod_usuario);
-                startActivity(intent);
+            if(cod_usuario > 0){
+                Toast.makeText(MainActivity.this, R.string.logado, Toast.LENGTH_LONG).show();
+//                Intent intent  = new Intent(MainActivity.this, activity_feed.class);
+//                intent.putExtra("cod_usuario", cod_usuario);
+//                startActivity(intent);
 
             }else{
 

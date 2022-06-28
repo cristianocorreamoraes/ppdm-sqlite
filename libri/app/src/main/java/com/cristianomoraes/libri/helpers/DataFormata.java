@@ -4,13 +4,13 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-public class DateFormat {
+public class DataFormata {
 
     private String dateFormat = "dd-MM-yyyy HH:mm:ss";
     private String locale = "pt-BR";
     SimpleDateFormat sdf= null;
 
-    public DateFormat() {
+    public DataFormata() {
 
         this.sdf = new SimpleDateFormat(this.dateFormat, new Locale(this.locale));
 

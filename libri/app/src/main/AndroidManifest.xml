@@ -9,20 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Libri">
-        <activity
-            android:name=".activity_feed"
-            android:exported="false">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity
-            android:name=".activity_cadastro_usuario"
-            android:exported="false">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
+
+    <activity
+    android:name=".activity_cadastro_usuario"
+    android:exported="false">
+        <meta-data
+        android:name="android.support.PARENT_ACTIVITY"
+        android:value=".MainActivity" />
+    </activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

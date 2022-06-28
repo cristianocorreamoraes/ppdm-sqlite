@@ -8,8 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import androidx.annotation.Nullable;
-
-import com.cristianomoraes.libri.helpers.DateFormat;
+import com.cristianomoraes.libri.helpers.DataFormata;
 
 public class SQLHelper extends SQLiteOpenHelper {
 
@@ -20,9 +19,7 @@ public class SQLHelper extends SQLiteOpenHelper {
     public static SQLHelper getInstance(Context context) {
 
         if (INSTANCE == null) {
-
             INSTANCE = new SQLHelper(context);
-
         }
 
         return INSTANCE;
@@ -69,7 +66,7 @@ public class SQLHelper extends SQLiteOpenHelper {
             values.put("login", login);
             values.put("senha", senha);
 
-            DateFormat df = new DateFormat();
+            DataFormata df = new DataFormata();
             values.put("created_date", df.getDateFormat());
 
             cod_usuario = (int) sqLiteDatabase.insertOrThrow("tbl_usuario", null, values);

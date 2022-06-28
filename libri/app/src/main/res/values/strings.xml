@@ -17,4 +17,11 @@
     <string name="saved">USUÁRIO CRIADO COM SUCESSO!</string>
     <string name="telaFeed">TELA DE FEED</string>
     <string name="login_fail">DADOS DE LOGIN INCORRETOS OU INEXISTENTES</string>
+    <string name="cadastroLivro">CADASTRO DE LIVRO</string>
+    <string name="titulo">TÍTULO</string>
+    <string name="descricao">DESCRIÇÃO</string>
+    <string name="foto">FOTO</string>
+    <string name="cadastrarLivro">CADASTRAR</string>
+    <string name="edicaoLivro">EDIÇÃO DE LIVRO</string>
+    <string name="logado">USUÁRIO LOGADO COM SUCESSO!</string>
 </resources>

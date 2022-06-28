@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.cristianomoraes.libri.database.SQLHelper;
-import com.cristianomoraes.libri.helpers.DateFormat;
+import com.cristianomoraes.libri.helpers.DataFormata;
 
 public class activity_cadastro_usuario extends AppCompatActivity {
 
@@ -51,9 +51,9 @@ public class activity_cadastro_usuario extends AppCompatActivity {
                         String semail = this.txtSenha.getText().toString();
                         String slogin = this.txtLogin.getText().toString();
                         String ssenha = this.txtSenha.getText().toString();
-                        DateFormat sdata = new DateFormat();
+                        DataFormata sdata = new DataFormata();
 
-                        DateFormat df = new DateFormat();
+                        DataFormata df = new DataFormata();
                         Log.d("TESTE", df.getDateFormat());
 
                         int cod_usuario = SQLHelper.getInstance(activity_cadastro_usuario.this)
@@ -63,9 +63,9 @@ public class activity_cadastro_usuario extends AppCompatActivity {
 
                             Toast.makeText(activity_cadastro_usuario.this, R.string.saved, Toast.LENGTH_LONG).show();
 
-                            Intent intent  = new Intent(activity_cadastro_usuario.this, activity_feed.class);
-                            intent.putExtra("cod_usuario", cod_usuario);
-                            startActivity(intent);
+//                            Intent intent  = new Intent(activity_cadastro_usuario.this, activity_feed.class);
+//                            intent.putExtra("cod_usuario", cod_usuario);
+//                            startActivity(intent);
 
                     })
                     .setNegativeButton(R.string.cancel, (dialog1, which)->{
