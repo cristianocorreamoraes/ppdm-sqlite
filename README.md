@@ -7,6 +7,9 @@
 Trata-se de um projeto que demonstra como acessar e inserir dados em banco de dados SQLite. Foi desenvolvido como introdução e fundamentação ao desenvolvimento de aplicativos Android para o Senai de Jandira.
 
 A temática utilizada para as demonstrações do aplicativo é um app de gerenciamento de livros. <strong>VALE RESSALTAR AQUI QUE O PROJETO É DE CUNHO DE DIDÁTICO, ESTÁ BEM SIMPLES E AINDA PRECISA DE DIVERSAS IMPLEMENTAÇÕES</strong> 
+
+<strong>VALE RESSALTAR AQUI QUE O PROJETO É DE CUNHO DIDÁTICO, ESTÁ BEM SIMPLES E AINDA PRECISA DE DIVERSAS IMPLEMENTAÇÕES</strong> 
+
 </p>
 
 
