@@ -19,7 +19,7 @@ A temática utilizada para as demonstrações do aplicativo é um app de gerenci
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width=100 />
 </a>
 <a href="#">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original-wordmark.svg" width=100 />
 </a>
 
 ## Autores
